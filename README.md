@@ -136,19 +136,6 @@ jupyter notebook inbreast_preprocessing.ipynb
 jupyter notebook inbreast_validation.ipynb
 ```
 
-## Results Summary
-
-| Model | Stage | AUC | Sensitivity | Specificity | Params |
-|-------|-------|-----|-------------|-------------|--------|
-| DenseNet121 | 1 | 0.7897 | 63.2% | 75.3% | 7.48M |
-| Hybrid-ViT | 2 | 0.7931 | 52.1% | 83.8% | 16.11M |
-| **CBAM-ResNet50** | **3** | **0.8176** | **87.5%** | **60.4%** | **24.21M** |
-| ResNet50 | 3 | 0.8081 | 70.8% | 75.3% | 23.51M |
-| Hybrid-ViT | 3 | 0.7985 | 86.5% | 57.9% | 28.42M |
-
-CBAM-ResNet50's 24-point sensitivity gain from Stage 2 to Stage 3 is the clearest demonstration that architecture-specific tuning can matter as much as architecture choice.
-
-
 ## License
 
 This project is released for academic and research purposes. The CBIS-DDSM dataset has its own licensing terms through TCIA.
